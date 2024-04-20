@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="100">
+  <logicalFolder name="root" displayName="root" projectFiles="true" kind="ROOT">
+    <logicalFolder name="HeaderFiles"
+                   displayName="Header Files"
+                   projectFiles="true">
+      <itemPath>ajoutBorneFontaine.h</itemPath>
+      <itemPath>ajoutBorneStationnement.h</itemPath>
+      <itemPath>/home/etudiant/Documents/tp3-integration-equipe-212/TP3/BorneInterface/fenetrePrincipale.h</itemPath>
+      <itemPath>supprimerBorne.h</itemPath>
+    </logicalFolder>
+    <logicalFolder name="ResourceFiles"
+                   displayName="Resource Files"
+                   projectFiles="true">
+      <itemPath>ajoutBorneFontaine.ui</itemPath>
+      <itemPath>ajoutBorneStationnement.ui</itemPath>
+      <itemPath>/home/etudiant/Documents/tp3-integration-equipe-212/TP3/BorneInterface/fenetrePrincipale.ui</itemPath>
+      <itemPath>supprimerBorne.ui</itemPath>
+    </logicalFolder>
+    <logicalFolder name="SourceFiles"
+                   displayName="Source Files"
+                   projectFiles="true">
+      <itemPath>ajoutBorneFontaine.cpp</itemPath>
+      <itemPath>ajoutBorneStationnement.cpp</itemPath>
+      <itemPath>/home/etudiant/Documents/tp3-integration-equipe-212/TP3/BorneInterface/fenetrePrincipale.cpp</itemPath>
+      <itemPath>main.cpp</itemPath>
+      <itemPath>supprimerBorne.cpp</itemPath>
+    </logicalFolder>
+    <logicalFolder name="TestFiles"
+                   displayName="Test Files"
+                   projectFiles="false"
+                   kind="TEST_LOGICAL_FOLDER">
+    </logicalFolder>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="Debug" type="4">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <modules>core gui widgets</modules>
+      </qt>
+      <compileType>
+        <ccTool>
+          <incDir>
+            <pElem>../source</pElem>
+          </incDir>
+          <incFile>
+            <pElem>../source/Borne.h</pElem>
+          </incFile>
+        </ccTool>
+        <linkerTool>
+          <linkerLibItems>
+            <linkerLibProjectItem>
+              <makeArtifact PL="../source"
+                            CT="3"
+                            CN="Debug"
+                            AC="true"
+                            BL="true"
+                            WD="../source"
+                            BC="${MAKE}  -f Makefile CONF=Debug"
+                            CC="${MAKE}  -f Makefile CONF=Debug clean"
+                            OP="${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/libsource.a">
+              </makeArtifact>
+            </linkerLibProjectItem>
+          </linkerLibItems>
+        </linkerTool>
+      </compileType>
+      <item path="/home/etudiant/Documents/tp3-integration-equipe-212/TP3/BorneInterface/fenetrePrincipale.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/etudiant/Documents/tp3-integration-equipe-212/TP3/BorneInterface/fenetrePrincipale.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/etudiant/Documents/tp3-integration-equipe-212/TP3/BorneInterface/fenetrePrincipale.ui"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="ajoutBorneFontaine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ajoutBorneFontaine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ajoutBorneFontaine.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ajoutBorneStationnement.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ajoutBorneStationnement.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ajoutBorneStationnement.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="supprimerBorne.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="supprimerBorne.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="supprimerBorne.ui" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+    <conf name="Release" type="4">
+      <toolsSet>
+        <compilerSet>default</compilerSet>
+        <dependencyChecking>true</dependencyChecking>
+        <rebuildPropChanged>false</rebuildPropChanged>
+      </toolsSet>
+      <qt>
+        <buildMode>1</buildMode>
+        <modules>core gui widgets</modules>
+      </qt>
+      <compileType>
+        <cTool>
+          <developmentMode>5</developmentMode>
+        </cTool>
+        <ccTool>
+          <developmentMode>5</developmentMode>
+        </ccTool>
+        <fortranCompilerTool>
+          <developmentMode>5</developmentMode>
+        </fortranCompilerTool>
+        <asmTool>
+          <developmentMode>5</developmentMode>
+        </asmTool>
+      </compileType>
+      <item path="/home/etudiant/Documents/tp3-integration-equipe-212/TP3/BorneInterface/fenetrePrincipale.cpp"
+            ex="false"
+            tool="1"
+            flavor2="0">
+      </item>
+      <item path="/home/etudiant/Documents/tp3-integration-equipe-212/TP3/BorneInterface/fenetrePrincipale.h"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="/home/etudiant/Documents/tp3-integration-equipe-212/TP3/BorneInterface/fenetrePrincipale.ui"
+            ex="false"
+            tool="3"
+            flavor2="0">
+      </item>
+      <item path="ajoutBorneFontaine.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ajoutBorneFontaine.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ajoutBorneFontaine.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ajoutBorneStationnement.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="ajoutBorneStationnement.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="ajoutBorneStationnement.ui" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="main.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="supprimerBorne.cpp" ex="false" tool="1" flavor2="0">
+      </item>
+      <item path="supprimerBorne.h" ex="false" tool="3" flavor2="0">
+      </item>
+      <item path="supprimerBorne.ui" ex="false" tool="3" flavor2="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
